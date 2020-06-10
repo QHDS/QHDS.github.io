@@ -17,10 +17,19 @@
   <meta name="description" content="">
   <meta name="author" content="John Doe">
   <meta name="keywords" content="">
-  <title>Straw&#39; Blog</title>
+  <title>关于 - Straw&#39; Blog</title>
 
   <link  rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css" />
 
+
+  <link  rel="stylesheet" href="https://cdn.staticfile.org/github-markdown-css/4.0.0/github-markdown.min.css" />
+  <link  rel="stylesheet" href="/lib/hint/hint.min.css" />
+
+  
+    <link  rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/10.0.0/styles/github-gist.min.css" />
+  
+
+  
 
 
 <!-- 主题依赖的图标库，不要自行修改 -->
@@ -42,7 +51,7 @@
 
 
 <body>
-  <header style="height: 100vh;">
+  <header style="height: 60vh;">
     <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand"
@@ -143,10 +152,6 @@
           </div>
 
           
-            <div class="scroll-down-bar">
-              <i class="iconfont icon-arrowdown"></i>
-            </div>
-          
         </div>
       </div>
     </div>
@@ -156,52 +161,21 @@
     
       <div class="container nopadding-md">
         <div class="py-5" id="board"
-          style=margin-top:0>
+          >
           
           <div class="container">
             <div class="row">
               <div class="col-12 col-md-10 m-auto">
                 
 
+<div class="page-content">
+  <h2 id="关于"><a href="#关于" class="headerlink" title="关于"></a>关于</h2><p>人在地球村，呼吸的是空气，喝的是水，吃的是食物</p>
+<p>多喝热水多睡觉</p>
+<p>厌倦当今社会的形式主义</p>
+<p>座右铭</p>
+<p><strong>时运未来君且守，困龙亦有上天时</strong></p>
 
-  <div class="row mx-auto index-card">
-    
-    
-      <div class="col-12 col-md-4 m-auto index-img">
-        <a href="/2020/06/10/%E8%AE%B0%EF%BC%8C%E6%9B%B4%E6%8D%A2Hexo/" target="_self">
-          <img src="/img/Banner.jpg" srcset="/img/loading.gif" alt="记，更换Hexo">
-        </a>
-      </div>
-    
-    <div class="col-12 col-md-8 mx-auto index-info">
-      <a class="index-header" href="/2020/06/10/%E8%AE%B0%EF%BC%8C%E6%9B%B4%E6%8D%A2Hexo/">记，更换Hexo</a>
-
-      <a href="/2020/06/10/%E8%AE%B0%EF%BC%8C%E6%9B%B4%E6%8D%A2Hexo/" class="index-excerpt">
-        
-        
-          
-        
-        <div>记，更换Hexo搭建了Hexo，也是不想维护服务器了，博客部署在GitHub pages
-博客来来回回更换了好几次，先是WordPress，又换成了Typecho，再是Gridea，发现同步到Github不合适，又换成了现在的Hexo，之前的博文也不想同步了，来来回回的折腾，也没正经弄过
-也是打算当成博客写的
 </div>
-      </a>
-
-      <div class="index-btm post-metas">
-        
-          <div class="post-meta mr-3">
-            <i class="iconfont icon-date"></i>&nbsp;2020-06-10
-          </div>
-        
-        
-        
-      </div>
-    </div>
-  </div>
-
-
-
-
 
               </div>
             </div>
@@ -292,7 +266,7 @@
     var typed = new Typed('#subtitle', {
       strings: [
         '  ',
-        "学而不倦，诲人不倦&nbsp;",
+        "关于&nbsp;",
       ],
       cursorChar: "_",
       typeSpeed: 70,
@@ -306,6 +280,21 @@
   </script>
 
 
+
+  <script  src="https://cdn.staticfile.org/anchor-js/4.2.2/anchor.min.js" ></script>
+  <script>
+    anchors.options = {
+      placement: "right",
+      visible: "hover",
+      
+    };
+    var el = "h1,h2,h3,h4,h5,h6".split(",");
+    var res = [];
+    for (item of el) {
+      res.push(".markdown-body > " + item)
+    }
+    anchors.add(res.join(", "))
+  </script>
 
 
 
